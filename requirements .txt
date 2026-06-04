@@ -1,0 +1,19 @@
+# Core Deep Learning Framework
+torch>=2.1.0
+pytorch-lightning>=2.2.0
+torchmetrics>=1.3.0
+
+# Graph Neural Networks (PyG)
+torch-geometric>=2.5.0
+
+# Cheminformatics & Datasets
+rdkit>=2023.9.1
+PyTDC>=1.1.0
+
+# Data Processing & Machine Learning Utilities
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Experiment Tracking
+wandb>=0.16.0

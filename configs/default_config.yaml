@@ -1,0 +1,12 @@
+model:
+  in_channels: 7
+  hidden_channels: 64
+  out_channels: 2
+
+training:
+  batch_size: 128
+  max_epochs: 50
+  monitor_metric: "val_auroc"
+  mode: "max"
+  patience: 7
+  min_delta: 0.001
